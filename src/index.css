@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.nav {
+  display: flex;
+  background-color: #61dafb;
+  align-items: center;
+  padding: 28px;
+
+}
+
+.btn {
+  color: black;
+  text-decoration: none;
+  margin: 18px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  
+}
+
+
+.logo {
+  width: 4vw;
+  min-width: 50px;
+  margin-right: auto;
+  padding: 1%;
+
+}
+
+
+.active {
+  font-size: 1.4rem;
+  color: white;
+  font-weight: bolder;
+
+}
+
+.homeimg {
+  width: 10vw;
+  min-width: 120px;
+  margin: 30px;
+}
+
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 72vh;
+}
+
+.homepage h1 {
+
+  font-size: 1.5rem;
+  margin-bottom: 120px;
+}
+
+.footer {
+  background-color: #495153;
+  height: 12vh;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+
+
+}
+
+
+.selectview {
+
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  margin-top: 30px;
+
+
+}
+
+.selectcontainer {
+
+  padding: 15px;
+
+}
+
+.selectcontainer > * {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+
+
+}
+
+.cardContainer {
+
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+
+
+}
+.card {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 70vw;
+
+
+}
+
+.card > * {
+  padding: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.card img {
+
+  margin: 0 auto;
+  max-width: 40%;
+  
+
+}
+
+.setview {
+  height: 68.9vh;
+}
+
+@media screen and (max-width: 720px){
+
+  .cardContainer {
+    flex-direction: column;
+  }
+  .selectview {
+    height: 15vh;
+
+  }
+
+
+  
+}
+
